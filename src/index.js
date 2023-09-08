@@ -15,3 +15,5 @@ document.querySelector("#menu").addEventListener("click",  () => {
 	clearContent();createMenu()});
 document.querySelector("#contacts").addEventListener("click",  () => {
 	clearContent(); createContacs()});
+
+createHomepage();

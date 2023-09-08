@@ -37,10 +37,29 @@ header > button {
 }
 
 #content {
-	width: min(100%, 45ch);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: min(100%, 60ch);
 	background-color: var(--color3);
 
 	margin: 3rem 0 0 0;
 	padding: 2rem;
 	border-radius: 20px;
+}
+
+#content > h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+#content > p {
+	text-align: center;
+
+}
+
+img {
+	width: 100%;
+	margin: 0 0 2rem 0;
 }
